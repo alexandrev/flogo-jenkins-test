@@ -1,3 +1,3 @@
-FROM flogo-engine:2.6
-ADD flogo.json flogo.json
-EXPOSE 9090
+FROM fe-engine:2.6
+ADD FlogoJWTEcho.json flogo.json
+EXPOSE 9999
